@@ -8,7 +8,7 @@
   * [Рукопожатия Wi-Fi 101](vvedenie/rukopozhatiya-wi-fi-101.md)
 * [Комплектующие и установка](komplektuyushie-i-ustanovka/README.md)
   * [Требуемое оборудование](komplektuyushie-i-ustanovka/trebuemoe-oborudovanie/README.md)
-    * [Тело (Raspberry Pi)](komplektuyushie-i-ustanovka/trebuemoe-oborudovanie/telo-raspberry-pi.md)
+    * [Одноплатный компьютер](komplektuyushie-i-ustanovka/trebuemoe-oborudovanie/odnoplatnyi-kompyuter.md)
     * [Карта памяти](komplektuyushie-i-ustanovka/trebuemoe-oborudovanie/karta-pamyati.md)
   * [Дополнительное оборудование](komplektuyushie-i-ustanovka/dopolnitelnoe-oborudovanie/README.md)
     * [Батарея](komplektuyushie-i-ustanovka/dopolnitelnoe-oborudovanie/batareya.md)

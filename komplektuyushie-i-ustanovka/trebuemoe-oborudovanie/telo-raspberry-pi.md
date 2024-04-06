@@ -1,2 +1,0 @@
-# Тело (Raspberry Pi)
-
