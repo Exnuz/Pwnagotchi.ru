@@ -13,16 +13,7 @@ description: >-
 
 Держи табличку с некоторыми PowerBank-ами идругими источниками питания (Другие тоже подойдут):
 
-| Производитель | Модель              | Объем mAh | Время работы |   |
-| ------------- | ------------------- | --------- | ------------ | - |
-| PiSugar       | PowerPack L         | 1200      | 04:49:42     |   |
-| UPS-Lite      | UPS-Lite V1.1       | 1000      | 03:10:00     |   |
-| Anker         | AstroMini 79AN7913S | 3200      | 10:18:00     |   |
-| Anker         | PowerCore A1109     | 5000      | 05:--:--     |   |
-| Anker         | PowerCore 20100     | 20000     | 19:44:--     |   |
-| Anker         | Astro E7 A1210      | 25600     | 49:--:--     |   |
-| Anker         | Astro E1 6700 A1211 | 6700      | 23:16:00     |   |
-| Xiaomi Mi     | Mi PowerBank        | 10000     | 36:--:--     |   |
+<table><thead><tr><th>Производитель</th><th>Модель</th><th>Объем mAh</th><th width="137">Время работы</th><th data-hidden></th></tr></thead><tbody><tr><td>PiSugar</td><td>PowerPack L</td><td>1200</td><td>04:49:42</td><td></td></tr><tr><td>UPS-Lite</td><td>UPS-Lite V1.1</td><td>1000</td><td>03:10:00</td><td></td></tr><tr><td>Anker</td><td>AstroMini 79AN7913S</td><td>3200</td><td>10:18:00</td><td></td></tr><tr><td>Anker</td><td>PowerCore A1109</td><td>5000</td><td>05:--:--</td><td></td></tr><tr><td>Anker</td><td>PowerCore 20100</td><td>20000</td><td>19:44:--</td><td></td></tr><tr><td>Anker</td><td>Astro E7 A1210</td><td>25600</td><td>49:--:--</td><td></td></tr><tr><td>Anker</td><td>Astro E1 6700 A1211</td><td>6700</td><td>23:16:00</td><td></td></tr><tr><td>Xiaomi Mi</td><td>Mi PowerBank</td><td>10000</td><td>36:--:--</td><td></td></tr></tbody></table>
 
 
 
