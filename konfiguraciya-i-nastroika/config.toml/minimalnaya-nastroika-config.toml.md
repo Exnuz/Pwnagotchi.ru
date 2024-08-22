@@ -1,18 +1,13 @@
 ---
-description: >-
-  Начальная настройка после записи образа начинается с приготовления config.toml
-  файла. Самого главного конфигурационного файла для pwnagotchi:
+description: 'Минимальная конфигурация выглядит так:'
 ---
 
-# Начальная конфигурация (config.toml)
-
-Сразу разберемся с его содержимым:
-
-Минимальная конфигурация выглядит так:
+# Минимальная настройка config.toml
 
 ```toml
 main.name = "pwnagotchi"
 main.lang = "en"
+
 main.whitelist = [
   "EXAMPLE_NETWORK",
   "ANOTHER_EXAMPLE_NETWORK",
@@ -27,15 +22,16 @@ main.plugins.grid.exclude = [
 ]
 
 ui.display.enabled = true
-ui.display.type = "waveshare_2"
+ui.display.type = "waveshare_3"
 ui.display.color = "black"
 
 ```
 
 ```toml
-// Some code
+
 main.name = "pwnagotchi" #Имя вашего pwnagotchi
 main.lang = "en" #Язык отображения на экране и web интерфейсе
+
 #Ниже список "белых сетей" которые pwnagotchi не будет атаковать
 main.whitelist = [
   "EXAMPLE_NETWORK",
@@ -47,7 +43,6 @@ main.whitelist = [
 ```
 
 ```toml
-// Some code
 #Блок кода ниже отвечает за плагин grid, отправляет данные 
 main.plugins.grid.enabled = true
 main.plugins.grid.report = true
@@ -58,8 +53,8 @@ main.plugins.grid.exclude = [
 ```
 
 ```toml
-// Some code
+#Блок кода отвечает за отображение информации на экране
 ui.display.enabled = true
-ui.display.type = "waveshare_2"
+ui.display.type = "waveshare_3"
 ui.display.color = "black"
 ```
