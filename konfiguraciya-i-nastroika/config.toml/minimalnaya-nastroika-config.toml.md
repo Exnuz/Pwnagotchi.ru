@@ -51,10 +51,13 @@ main.whitelist = [
 
 ```toml
 #Блок кода ниже отвечает за плагин grid, отправляет данные 
-main.plugins.grid.enabled = true
+main.plugins.grid.enabled = true # Вклюбчение плагина
 main.plugins.grid.report = true # Полное согласие на участие в рейтинге
+#Белый список сетей которые не стоит отправлять в Grid
+
 main.plugins.grid.exclude = [
-  "YourHomeNetworkHere"
+  "YourHomeNetworkHere", # both ESSIDs and BSSIDs are supported
+  "de:ad:be:ef:de:ad"    # both ESSIDs and BSSIDs are supported
 ]
 ```
 
@@ -62,7 +65,7 @@ main.plugins.grid.exclude = [
 
 **Никакие захваченные криптографические материалы вашего Pwnagotchi не отправляются на сервер PwnGrid;** ТОЛЬКО минимальная информация для регистрации Pwnagotchi в базе данных PwnGrid (см. выше) и подсчета того, сколько сетей он «захватил» на данный момент, а именно:
 
-* Список сетей, рукопожатия которых собирал блок (состоящий из их `BSSID`и `ESSID`).
+* Список сетей, которых собирал Pwnagotchi (состоящий из их `BSSID`и `ESSID`).
 
 ```toml
 #Блок кода отвечает за отображение информации на экране
