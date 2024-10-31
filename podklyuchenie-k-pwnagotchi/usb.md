@@ -51,7 +51,7 @@ _Обратите внимание что кабели бывают разные
 
 Откроется небольшое окно, переходим в "Свойства" -> "IP версии 4 (TCP/IPv4)":
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 И вводим данные для подключения к Pwnagotchi:
 
