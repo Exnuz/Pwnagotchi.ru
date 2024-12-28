@@ -26,7 +26,7 @@
   * [USB](podklyuchenie-k-pwnagotchi/usb.md)
   * [SSH](podklyuchenie-k-pwnagotchi/ssh.md)
   * [Bluetooth](podklyuchenie-k-pwnagotchi/bluetooth/README.md)
-    * [Известные проблемы](podklyuchenie-k-pwnagotchi/bluetooth/izvestnye-problemy.md)
+    * [Ручное подключение по Bluetooth](podklyuchenie-k-pwnagotchi/bluetooth/izvestnye-problemy.md)
 * [Дополнительная конфигурация](dopolnitelnaya-konfiguraciya/README.md)
   * [Защита SD-карты](dopolnitelnaya-konfiguraciya/zashita-sd-karty.md)
   * [Шифрование](dopolnitelnaya-konfiguraciya/shifrovanie/README.md)

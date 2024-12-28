@@ -8,18 +8,20 @@ description: Подключение Pwnagotchi стандартным метод
 
 Первым делом исправим блок кода в config.toml отвечающий за плагин bt-tether
 
-main.plugins.bt-tether.enabled = true #Включение плагина
 
-main.plugins.bt-tether.devices.android-phone.enabled = false #Подключание к Android\
-main.plugins.bt-tether.devices.android-phone.search\_order = 1\
-main.plugins.bt-tether.devices.android-phone.mac = "" #MAC адрес Bluetooth телефона (в верхнем регистре)\
-main.plugins.bt-tether.devices.android-phone.ip = "192.168.44.44" #Адресс для подключения к веб интерфейсу\
-main.plugins.bt-tether.devices.android-phone.netmask = 24\
-main.plugins.bt-tether.devices.android-phone.interval = 1\
-main.plugins.bt-tether.devices.android-phone.scantime = 60 #Время сканирования для поиска устройств\
-main.plugins.bt-tether.devices.android-phone.max\_tries = 60 #Кол-во попыток подключений после потери соединения\
-main.plugins.bt-tether.devices.android-phone.share\_internet = true #Раздача интернета через Bluetooth\
-main.plugins.bt-tether.devices.android-phone.priority = 1 #Приоритетподключения (1 = наивысший приоритет)
+
+`main.plugins.bt-tether.enabled = true #Включение плагина`\
+\
+`main.plugins.bt-tether.devices.android-phone.enabled = false #Подключание к Android`\
+`main.plugins.bt-tether.devices.android-phone.search_order = 1`\
+`main.plugins.bt-tether.devices.android-phone.mac = "" #MAC адрес Bluetooth телефона (в верхнем регистре)`\
+`main.plugins.bt-tether.devices.android-phone.ip = "192.168.44.44" #Адресс для подключения к веб интерфейсу`\
+`main.plugins.bt-tether.devices.android-phone.netmask = 24`\
+`main.plugins.bt-tether.devices.android-phone.interval = 1`\
+`main.plugins.bt-tether.devices.android-phone.scantime = 60 #Время сканирования для поиска устройств`\
+`main.plugins.bt-tether.devices.android-phone.max_tries = 60 #Кол-во попыток подключений после потери соединения`\
+`main.plugins.bt-tether.devices.android-phone.share_internet = true #Раздача интернета через Bluetooth`\
+`main.plugins.bt-tether.devices.android-phone.priority = 1 #Приоритетподключения (1 = наивысший приоритет)`
 
 Очень много проблем возникает с подключением к pwnagotchi обычно из-за невнимательности пользователя и игнорирования основныx правил:
 
